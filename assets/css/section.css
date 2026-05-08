@@ -1,0 +1,11 @@
+/* SERVE SOMENTE QUANDO FOR "DISPLAY: FLEX" */
+/* align-items: flex-start;  /* alinhamento vertical */
+/* justify-content: center;  alinhamento horizontal */
+
+
+#banner {
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
