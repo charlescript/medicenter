@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 /* SERVE SOMENTE QUANDO FOR "DISPLAY: FLEX" */
@@ -52,7 +53,6 @@ nav a {
     text-transform: uppercase;
     color: #727272;
     cursor: pointer;
-    font-family: Arial;
 }
 
 nav .active a,
