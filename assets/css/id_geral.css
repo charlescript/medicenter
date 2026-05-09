@@ -16,6 +16,7 @@
 
 .widget_title {
     margin-top: 30px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
@@ -30,4 +31,27 @@
     height: 3px;
     background-color: #36a9e1;
     margin-top: 7px;
+}
+
+aside .widget {
+    
+}
+
+.widget_cubes {
+    display: flex;
+    padding-left: 10px;
+}
+
+aside .blue_cube_left {
+    width: 8rem;
+    height: 8rem;
+    background-color: #36a9e1;
+    margin: 1rem 2rem 1rem 0;   
+}
+
+aside .blue_cube_right {
+    width: 8rem;
+    height: 8rem;
+    background-color: #36a9e1;
+    margin: 1rem 2rem 1rem 0;
 }
