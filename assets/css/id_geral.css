@@ -1,0 +1,15 @@
+
+
+#geral {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
