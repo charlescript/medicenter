@@ -8,6 +8,11 @@ footer {
     display: flex;
 }
 
+.footer_menu a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .fm_1, .fm_2, .fm_3 {
     flex: 1;
     color: #fff;
