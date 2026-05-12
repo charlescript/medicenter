@@ -1,11 +1,41 @@
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mn_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
 @media (max-width: 600px) {
 
-    header .containe {
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding: 20px;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+    header .container {
         flex-direction: row;
     }
 
     nav ul {
         flex-direction: column;
+        display: none;
     }
 
     /*///////////////////////////////////*/
@@ -50,8 +80,7 @@
         padding: 20px;
     }
 
-    .footer_copy
-    {
+    .footer_copy {
         text-align: center;
     }
 }
